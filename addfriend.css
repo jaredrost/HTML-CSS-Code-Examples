@@ -1,0 +1,30 @@
+#slogo{
+    position:relative;
+    top:-105px;
+    left:0px;
+}
+#banner{
+    position: relative;
+    top: -15px;
+    left:-10px;
+    
+}
+#friendslist{
+    position: relative;
+    left: 50px;
+    top: -80px;
+    font-size: 36pt;
+    color: rebeccapurple
+}
+#login{
+    position: relative;
+    top: -35px;
+    left: 50px;
+    font-size: 20pt;
+    
+}
+#submit{
+    width: 100px;
+    height: 200px;
+    font-size: 26pt;
+}

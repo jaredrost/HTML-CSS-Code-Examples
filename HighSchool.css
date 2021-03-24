@@ -1,0 +1,383 @@
+body{
+    background-color:beige;
+       
+}
+#logo{
+    position: relative;  /* logo */
+}
+#premier{
+    position: relative;
+    bottom: 110px;         /* underlined portion of text*/
+    left: -10px;
+    text-decoration: underline;
+    color: forestgreen;
+    font-family: "capture it", stencil , arial;
+    font-size: 36px;
+    
+           
+}
+#header{
+     position: relative;
+    
+   text-align: center;
+    left: 490px;
+    font-size: 22pt;
+    text-decoration: underline;
+    font-family: arial; 
+    
+}
+#allaround{
+     position: relative;
+    display: inline-block;
+    text-align: center;
+    top:  10px;
+    left: 525px;
+    font-size: 17.5pt;
+    text-decoration: underline;
+    font-family: arial; 
+    
+}
+#highschool{
+   
+    position: relative;
+    display: inline;
+    text-align: center;
+    font-size: 14.54pt;
+    font-family: arial; 
+}
+#baseball{
+    position: relative;
+    top: -225px;
+    left: 100px;
+    
+}
+#baseball2{
+    position: relative;
+    top: -222px;
+    left: 950px;
+    
+}
+#hitting{
+    
+     position: relative;
+    display: inline-block;
+    text-align: center;
+    top:  -100px;
+    left: 525px;
+    font-size: 17.5pt;
+    text-decoration: underline;
+    font-family: arial; 
+}
+#hitting2{
+     position: relative;
+    display: inline-block;
+    text-align: center;
+    top:  -100px;
+    left: 485px;
+    font-size: 17.5pt;
+    font-family: arial; 
+}
+#here{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    top:  -100px;
+    left: 485px;
+    font-size: 17.5pt;
+    font-family: arial; 
+}
+#hit{
+    top: -100px;
+        position: relative;
+    display: inline;
+    text-align: center;
+    font-size: 14.54pt;
+    font-family: arial; 
+}
+#softball{
+       position: relative;
+    display: inline-block;
+    text-align: center;
+    top:  -200px;
+    left: 525px;
+    font-size: 17.5pt;
+    text-decoration: underline;
+    font-family: arial; 
+    
+    
+}
+#clinic{
+    position: relative;
+    top: -490px;
+    left: 50px;
+    
+}
+#clinic2{
+    position: relative;
+    top: -487px;
+    left: 700px;
+    
+}
+#softballclinic
+{
+     top: -200px;
+        position: relative;
+    display: inline;
+    text-align: center;
+    font-size: 14.54pt;
+    font-family: arial;   
+    
+    
+}
+#softballimage{
+       position: relative;
+    top: -490px;
+    left: 1000px;
+    
+}
+#softballimage2{
+       position: relative;
+    top: -490px;
+    left: 50px;
+    
+}
+#hittingclinic{
+           position: relative;
+    top: -200px;
+    left: 335px;
+}
+#clinicsheader{
+         position: relative; 
+   text-align: center;
+    left: 575px;
+    font-size: 22pt;
+    top: -250px;
+    text-decoration: underline;
+    font-family: arial; 
+    
+    
+}
+#winter{
+       position: relative;
+    display: inline-block;
+    text-align: center;
+    top:  -150px;
+    left: 519px;
+    font-size: 17.5pt;
+    text-decoration: underline;
+    font-family: arial; 
+}
+#winter1{
+     position: relative;
+    display: inline-block;
+    text-align: center;
+     font-family: arial; 
+    top:  -160px;
+    left: 565px;
+    font-size: 14.54pt
+    
+}
+#clinicinfo{
+         top: -150px;
+        position: relative;
+    display: inline;
+    text-align: center;
+    font-size: 14.54pt;
+    font-family: arial;   
+}
+#hittingpic{
+    
+         position: relative;
+    top: -420px;
+    left: 1000px;
+    
+}
+#hittingpic1{
+    
+         position: relative;
+    top: -420px;
+    left: -150px;
+    
+}
+#winterpitching{
+    
+     position: relative;
+    display: inline-block;
+    text-align: center;
+    top:  -380px;
+    left: 515px;
+    font-size: 17.5pt;
+    text-decoration: underline;
+    font-family: arial; 
+}
+#winterpitching1{
+         position: relative;
+    display: inline-block;
+    text-align: center;
+     font-family: arial; 
+    top:  -395px;
+    left: 570px;
+    font-size: 14.54pt
+}
+#pitchclinic{
+         top: -390px;
+        position: relative;
+    display: inline;
+    text-align: center;
+    font-size: 14.54pt;
+    font-family: arial; 
+    
+}
+#pitcherpic{
+    
+         position: relative;
+    top: -620px;
+    left: 1000px;
+    
+}
+#pitcherpic1{
+    
+         position: relative;
+    top: -620px;
+    left: -150px;
+    
+}
+#privatelessons{
+           position: relative;
+    display: inline-block;
+    text-align: center;
+    top:  -560px;
+    left: 555px;
+    font-size: 17.5pt;
+    text-decoration: underline;
+    font-family: arial; 
+}
+#private{
+         top: -540px;
+        position: relative;
+    display: inline;
+    text-align: center;
+    font-size: 14.54pt;
+    font-family: arial;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul{
+ list-style-type: none;
+    margin: 0;
+    padding:0;           /* general setup of nav bar*/
+    overflow: hidden;
+    background-color: #333;
+ }
+        
+li {
+    float: left; /*gets nav bar horizontal*/
+    border-right:1px solid #bbb; /* creates the barrier*/
+}
+   
+li a {
+    display: block;  /*bigger buttons*/
+    color: white;    /*text color */
+    text-align: center;
+    padding: 15px 50px; /* makes it fit the screen*/
+    text-decoration: none;
+    font-family: arial;
+    font-size: 25px;
+}
+        
+li a:hover {
+     background-color: #111; /*changes color on hover */
+}
+ 
+
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+}
+
+
+    
+ 
+
+/* -------------------DROPDOWN MENU-----------------*/
+
+.dropbtn {
+    background-color: #333; 
+    color: white;
+    font-size: 16px;      /*changes the staff button*/
+    font-family: serif;
+    cursor: pointer;
+    padding: inherit;
+    border: inherit;
+    
+}
+
+.dropdown {
+    display: inline-block;
+    /*keeps the button in place*/
+}
+
+.dropdown-content {
+    display: none;   /*only displays on hover*/
+    position: absolute; /*proper drop*/
+    background-color: #111;
+    min-width: 165.1px; /*proper sized drop down*/
+    z-index: 1; /* drop down will fall in front of other items*/
+}
+
+.dropdown-content a {
+    color: white; /*dropdown text color*/
+    padding: 12px 16px; /*proper sized drop down*/
+    text-decoration: none;
+    display: block;  /*proper sized drop down*/
+    font-family: arial;
+    font-size: 20px;
+}
+
+.dropdown-content a:hover {
+    background-color: #111; /*changes hover color*/
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;                                       background-color: #333; /* items in dropdown menue */                 
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #111; /*keeps staff button the proper hover color when looking at other items in dropdown*/
+}
+
+
+/*-----------------FOOTER------------------*/
+
+ footer{
+    background-color: #F7F7F7;
+    text-align: center;          /*footer*/
+    font-family: serif;
+}
+
+.footer-logos{
+    position: relative;
+    top: 10px;
+}
+
+

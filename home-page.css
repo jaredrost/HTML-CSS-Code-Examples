@@ -1,0 +1,170 @@
+body{
+    background-color:beige;
+       
+}
+#logo{
+    position: relative;  /* logo */
+}
+#premier{
+    position: relative;
+    bottom: 85px;         /* underlined portion of text*/
+    left: -10px;
+    text-decoration: underline;
+    color: forestgreen;
+    font-family: fantasy;
+    font-size: 35px;
+           
+}
+#cages{
+    position: relative;
+    bottom: 75px;      /* top portion of text */
+    left: -10px;
+    font-family: arial;
+    font-size: 20px;
+    
+}
+#accommodation{
+    position: relative;
+    bottom: 70px;
+    left: -10px;
+    font-size: 20px;
+    font-family: arial;
+        
+}
+#turfpic{
+    position: relative;
+    right: 396px;
+}
+
+#text{
+    position: relative;
+    left: 660px;
+    bottom: 240px;         /*gets text in general area */
+    margin-right: 20cm;
+    
+}
+#turfed
+{
+    position: relative;
+    top: 90px;
+    right: 660px;
+    color: red;
+    text-decoration: underline;
+    font-size: 25px;
+    font-family: arial;
+}
+#batting-cages{
+    position: relative;
+    bottom: 500px;
+    left: 650px;
+    margin-bottom: 40px;
+}
+#teens{
+    position: relative;
+    right: 805px;
+    bottom: 40px
+}
+#shop{
+    position: relative;
+    top: 800px;
+    left: 1050px;
+    
+}
+
+
+ footer{
+    background-color: #F7F7F7;
+    text-align: center;          /*footer*/
+    font-family: serif;
+}
+
+.footer-logos{
+    position: relative;
+    top: 10px;
+}
+
+
+/*--------------NAV BAR----------------*/
+ul{
+ list-style-type: none;
+    margin: 0;
+    padding: 0;           /* general setup of nav bar*/
+    overflow: hidden;
+    background-color: #333;
+ }
+        
+li {
+    float: left; /*gets nav bar horizontal*/
+    border-right:1px solid #bbb; /* creates the barrier*/
+}
+   
+li a {
+    display: block;  /*bigger buttons*/
+    color: white;    /*text color */
+    text-align: center;
+    padding: 15px 57.5px; /* makes it fit the screen*/
+    text-decoration: none;
+        
+        }
+        
+li a:hover {
+     background-color: #111; /*changes color on hover */
+}
+ 
+
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+}
+
+
+    
+ 
+
+/* -------------------DROPDOWN MENU-----------------*/
+
+.dropbtn {
+    background-color: #333; 
+    color: white;
+    font-size: 16px;      /*changes the staff button*/
+    font-family: serif;
+    cursor: pointer;
+    
+}
+
+.dropdown {
+    display: inline-block; /*keeps the button in place*/
+}
+
+.dropdown-content {
+    display: none;   /*only displays on hover*/
+    position: absolute; /*proper drop*/
+    background-color: #111;
+    min-width: 165.1px; /*proper sized drop down*/
+    z-index: 1; /* drop down will fall in front of other items*/
+}
+
+.dropdown-content a {
+    color: white; /*dropdown text color*/
+    padding: 12px 16px; /*proper sized drop down*/
+    text-decoration: none;
+    display: block;  /*proper sized drop down*/
+    font-family: serif;
+}
+
+.dropdown-content a:hover {
+    background-color: #111; /*changes hover color*/
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;                                       background-color: #333; /* items in dropdown menue */                 
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #111; /*keeps staff button the proper hover color when looking at other items in dropdown*/
+}

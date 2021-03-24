@@ -1,0 +1,83 @@
+body{
+    background-color:white;
+    margin:0px;
+    width:100%;
+    height:100%;
+    padding:0px;
+    overflow-x:hidden;
+    overflow-y: hidden;
+     
+   
+        
+}
+
+#slogo{
+    position:relative;
+    top:-1010px;
+    left:10px;
+}
+#banner{
+    position: relative;
+    top: -915px;
+    
+}
+#welcome{
+    text-decoration: underline;
+    position: relative;
+    left: 20px;
+    top: -990px;
+    font-size: 24pt;
+    color: white;
+    
+}
+#friends{
+    position: relative;
+    font-size: 18pt;
+    left: 50px;
+    top: -950px;
+    color: white;
+}
+#list{
+    position: relative;
+    top: -6px;
+    left:px
+}
+#field{
+    position: relative;
+    left:290px;
+    top:-1440px;
+}
+#events{
+    position: relative;
+    font-size: 24pt;
+    color:rebeccapurple;
+    left: 750px;
+    top: -1630px;
+    
+}
+#info{
+    position: relative;
+    font-size: 14pt;
+    color: rebeccapurple;
+    left: 800px;
+    top: -1550px;
+}
+#sign{
+        position: relative;
+    font-size: 20pt;
+    color: rebeccapurple;
+    left: 680px;
+    top: -1500px;
+    text-decoration: underline;
+}
+#quad{
+    position: relative;
+    left:300px;
+    top:-1453px;
+}
+#spoco{
+    position: relative;
+    left:300px;
+    top:-1446px;
+}
+   

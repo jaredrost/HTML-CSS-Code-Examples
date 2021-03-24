@@ -1,0 +1,253 @@
+body{
+    background-color:beige;
+       
+}
+#logo{
+    position: relative;  /* logo */
+}
+#premier{
+    position: relative;
+    bottom: 110px;         /* underlined portion of text*/
+    left: -10px;
+    text-decoration: underline;
+    color: forestgreen;
+    font-family: "capture it", stencil , arial;
+    font-size: 36px;
+    
+           
+}
+#TurfBG{
+    position: relative;
+    top: 50px;
+    left: 340px;
+        
+
+}
+#turfheader{
+   position: relative;
+    top: -360px;
+    left: 490px;
+    color: white;
+    font-size: 22pt;
+    text-decoration: underline;
+    font-family: arial; 
+    
+}
+#turfbody{
+    position: relative;
+    display: inline-block;
+   text-align: center;
+    top: -360px;
+    color: white;
+    left: 452px;
+    font-size: 17.5pt;
+     font-family: arial; 
+   
+}
+#pvt{
+     position: relative;
+    display: inline-block;
+   text-align: center;
+    top: -360px;
+    color: white;
+    left: 392px;
+    font-size: 17.5pt;
+     font-family: arial; 
+}
+#hitting{
+         position: relative;
+    display: inline-block;
+   text-align: center;
+    top: -360px;
+    color: white;
+    left: 495px;
+    font-size: 22pt;
+     font-family: arial; 
+}
+#pitching{
+     position: relative;
+    display: inline-block;
+   text-align: center;
+    top: -408px;
+    color: white;
+    left: 725px;
+    font-size: 22pt;
+     font-family: arial; 
+}
+#catching{
+     position: relative;
+    display: inline-block;
+   text-align: center;
+    top: -390px;
+    color: white;
+    left: 480px;
+    font-size: 22pt;
+     font-family: arial; 
+}
+#fielding{
+        position: relative;
+    display: inline-block;
+   text-align: center;
+    top: -439px;
+    color: white;
+    left: 723px;
+    font-size: 22pt;
+     font-family: arial; 
+}
+#info{
+           position: relative;
+    display: inline-block;
+   text-align: center;
+    top: -435px;
+    color: white;
+    left: 375px;
+    font-size: 14.54pt;
+     font-family: arial; 
+}
+#battingcages{
+    position: relative;
+    
+}
+#teamtraining{
+    position: relative;
+    display: inline-block;
+   text-align: center;
+    top: -300px;
+    left: 520px;
+    font-size: 36pt;
+    text-decoration: underline;
+    font-family: arial; 
+    
+        
+}
+#training{
+      position: relative;
+    display: inline-block;
+   text-align: center;
+     font-size: 17.5pt;
+     font-family: arial; 
+    top: -280px;
+    left: 360px;
+}
+#training2{
+      position: relative;
+    display: inline-block;
+   text-align: center;
+     font-size: 17.5pt;
+     font-family: arial; 
+    top: -250px;
+    left: 360px;
+}
+    
+
+
+
+
+
+
+
+/*--------------NAV BAR----------------*/
+ul{
+ list-style-type: none;
+    margin: 0;
+    padding:0;           /* general setup of nav bar*/
+    overflow: hidden;
+    background-color: #333;
+ }
+        
+li {
+    float: left; /*gets nav bar horizontal*/
+    border-right:1px solid #bbb; /* creates the barrier*/
+}
+   
+li a {
+    display: block;  /*bigger buttons*/
+    color: white;    /*text color */
+    text-align: center;
+    padding: 15px 50px; /* makes it fit the screen*/
+    text-decoration: none;
+    font-family: arial;
+    font-size: 25px;
+}
+        
+li a:hover {
+     background-color: #111; /*changes color on hover */
+}
+ 
+
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+}
+
+
+    
+ 
+
+/* -------------------DROPDOWN MENU-----------------*/
+
+.dropbtn {
+    background-color: #333; 
+    color: white;
+    font-size: 16px;      /*changes the staff button*/
+    font-family: serif;
+    cursor: pointer;
+    padding: inherit;
+    border: inherit;
+    
+}
+
+.dropdown {
+    display: inline-block;
+    /*keeps the button in place*/
+}
+
+.dropdown-content {
+    display: none;   /*only displays on hover*/
+    position: absolute; /*proper drop*/
+    background-color: #111;
+    min-width: 165.1px; /*proper sized drop down*/
+    z-index: 1; /* drop down will fall in front of other items*/
+}
+
+.dropdown-content a {
+    color: white; /*dropdown text color*/
+    padding: 12px 16px; /*proper sized drop down*/
+    text-decoration: none;
+    display: block;  /*proper sized drop down*/
+    font-family: arial;
+    font-size: 20px;
+}
+
+.dropdown-content a:hover {
+    background-color: #111; /*changes hover color*/
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;                                       background-color: #333; /* items in dropdown menue */                 
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #111; /*keeps staff button the proper hover color when looking at other items in dropdown*/
+}
+
+
+/*-----------------FOOTER------------------*/
+
+ footer{
+    background-color: #F7F7F7;
+    text-align: center;          /*footer*/
+    font-family: serif;
+}
+
+.footer-logos{
+    position: relative;
+    top: 10px;
+}
+
+
